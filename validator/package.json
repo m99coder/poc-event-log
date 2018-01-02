@@ -1,0 +1,16 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "Kafka Consumer for commands and Producer for events",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Marco Lehmann <marco.lehmann@zalando.de>",
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^1.6.2",
+    "redis": "^2.7.1"
+  }
+}

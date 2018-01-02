@@ -1,0 +1,15 @@
+{
+  "name": "query-api",
+  "version": "1.0.0",
+  "description": "Query REST API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Marco Lehmann <marco.lehmann@zalando.de>",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^2.7.1"
+  }
+}

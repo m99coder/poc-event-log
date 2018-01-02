@@ -1,0 +1,64 @@
+{
+  "contentTypes": [
+    {
+      "name": "Entry",
+      "base": "entries",
+      "fields": [
+        {
+          "id": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "heroImage",
+          "type": "string",
+          "linkType": "Asset",
+          "required": false
+        },
+        {
+          "id": "description",
+          "type": "string",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Asset",
+      "base": "assets",
+      "fields": [
+        {
+          "id": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "src",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "description",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "width",
+          "type": "number",
+          "required": true
+        },
+        {
+          "id": "height",
+          "type": "number",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "debug": true,
+  "host": "localhost",
+  "ip": "${IP}",
+  "ports": {
+    "commandApi": 4000,
+    "queryApi": 4001
+  }
+}

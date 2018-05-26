@@ -10,6 +10,6 @@
   "author": "Marco Lehmann <marco.lehmann@zalando.de>",
   "license": "MIT",
   "dependencies": {
-    "redis": "^2.7.1"
+    "redis": "^2.8.0"
   }
 }

@@ -10,7 +10,7 @@
   "author": "Marco Lehmann <marco.lehmann@zalando.de>",
   "license": "MIT",
   "dependencies": {
-    "kafka-node": "^2.6.1",
+    "kafka-node": "^5.0.0",
     "redis": "^3.1.1",
     "request": "^2.87.0"
   }

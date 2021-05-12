@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "kafka-node": "^2.6.1",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "request": "^2.87.0"
   }
 }
